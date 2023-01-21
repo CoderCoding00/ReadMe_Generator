@@ -1,5 +1,6 @@
-//  README.md
-// 1. Purpose:
+# README.md
+
+## 1. Purpose:
 
 Create a README generator that prompts users for input about their project.
 
@@ -9,17 +10,16 @@ The Title of their project will be at the top of the paege along with the badge 
 Their github user name and their email address will be used to click on in order to take them to the github link or email.
 
 
-// 2. Languages Used:
+## 2. Languages Used:
 
 Javascript, NodeJS
 
 
-// 3. Developer:
+## 3. Developer:
 
  Drum Holliday 
  
-//
-//  Created by Drum Holliday on 9/6/22.
-//
+## Created on 9/6/22.
+
 
 
