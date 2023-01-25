@@ -1,6 +1,7 @@
+# ReadMe Generator 
 
 
-
+## Use
 ```md
 GIVEN a command-line application that accepts user input
 WHEN prompted for information about your application repository
@@ -20,12 +21,11 @@ THEN a badge for that license is added near the top of the README and a notice i
 WHEN you click on the links in the Table of Contents
 THEN you are taken to the corresponding section of the README
 ```
-
-
-
-
- Drum Holliday 
  
+## Screen Shot Examples 
+
+## Link to Video Demostration
+https://watch.screencastify.com/v/y6AIoojbPFwTNoiKJeHG
 
 
 ```md
