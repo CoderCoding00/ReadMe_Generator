@@ -27,11 +27,18 @@ function renderLicenseSection(license) {
       `## License
 
 This project is licensed under the ${license} license.
-[${license} license](${renderLicenseLink(license)})
+<br>[${license} license](${renderLicenseLink(license)})
       `
     )
   }
   return ''
+}
+function renderLicenseLinkTwo(license) {
+  if (license !== "None") {
+    return '- [License](#license)';
+  }else{
+      return '';
+    }
 }
 
 // TODO: Create a function to generate markdown for README
@@ -49,12 +56,12 @@ function generateMarkdown(data) {
 
 ## Table of Contents
 
-- [Title](${data.title}) 
+- ${data.title}
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [License](#license)
+  ${renderLicenseLinkTwo(data.license)} 
   - [Who Contributed](#who-contributed)
   - [Questions](#questions)
   - [Tests](#tests)
@@ -62,23 +69,23 @@ function generateMarkdown(data) {
 
 ## Installation
 How did you install your project? 
-</br>${data.installation}
+<br/>${data.installation}
 
 ## Usage
 How do you use your project? 
-</br>${data.usage}
+<br/>${data.usage}
 
 ${renderLicenseSection(data.license)}
 
 ## Who Contributed
 Who contributed to this project?
-</br>${data.contribution}
+<br/>${data.contribution}
 
 ## Questions 
 - What are the Github usernames of the Contributors?
-</br> [${data.username}](https://github.com/${data.username})
+<br/> [${data.username}](https://github.com/${data.username})
 - What are the email addresses of the Contributors?
-</br> ${data.email}
+<br/> ${data.email}
 
 ## Tests
 Provide tests for your project here.
