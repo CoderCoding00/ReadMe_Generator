@@ -1,7 +1,10 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 # ReadMe Generator 
 
 
-## Use
+## Description 
 ```md
 GIVEN a command-line application that accepts user input
 WHEN prompted for information about your application repository
@@ -16,12 +19,14 @@ THEN this information is added to the sections of the README entitled Descriptio
 WHEN you choose a license for my application from a list of options
 THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
 
-
-
 WHEN you click on the links in the Table of Contents
 THEN you are taken to the corresponding section of the README
 ```
- 
+
+## Installation
+In the terminal I ran "npm i" to install packages.
+Ran "node index.js" to start the to start the prompts for the user. 
+
 ## Screen Shot Examples 
 <img width="723" alt="Screen Shot 2023-01-24 at 8 04 05 PM" src="https://user-images.githubusercontent.com/107374333/214477570-f44e8638-684f-43ea-9ad3-deec5384483b.png">
 
