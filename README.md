@@ -1,4 +1,8 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 # ReadMe Generator 
+
 
 ## Use
 ```md
@@ -18,8 +22,19 @@ THEN a badge for that license is added near the top of the README and a notice i
 WHEN you click on the links in the Table of Contents
 THEN you are taken to the corresponding section of the README
 ```
- 
+
+## Installation
+In the terminal I ran "npm i" to install packages.
+Ran "node index.js" to start the to start the prompts for the user. 
+
 ## Screen Shot Examples 
+<img width="723" alt="Screen Shot 2023-01-24 at 8 04 05 PM" src="https://user-images.githubusercontent.com/107374333/214477570-f44e8638-684f-43ea-9ad3-deec5384483b.png">
+
+<img width="690" alt="Screen Shot 2023-01-24 at 8 05 20 PM" src="https://user-images.githubusercontent.com/107374333/214477594-d3f0c8e1-b5a7-47cd-9880-60414c992b65.png">
+
+<img width="591" alt="Screen Shot 2023-01-24 at 8 05 42 PM" src="https://user-images.githubusercontent.com/107374333/214477609-efb4c56f-4937-401e-9ccb-e66e14871561.png">
+
+
 
 ## Link to Video Demostration
 https://watch.screencastify.com/v/y6AIoojbPFwTNoiKJeHG
