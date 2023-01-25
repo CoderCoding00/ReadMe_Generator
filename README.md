@@ -23,6 +23,13 @@ THEN you are taken to the corresponding section of the README
 ```
  
 ## Screen Shot Examples 
+<img width="723" alt="Screen Shot 2023-01-24 at 8 04 05 PM" src="https://user-images.githubusercontent.com/107374333/214477570-f44e8638-684f-43ea-9ad3-deec5384483b.png">
+
+<img width="690" alt="Screen Shot 2023-01-24 at 8 05 20 PM" src="https://user-images.githubusercontent.com/107374333/214477594-d3f0c8e1-b5a7-47cd-9880-60414c992b65.png">
+
+<img width="591" alt="Screen Shot 2023-01-24 at 8 05 42 PM" src="https://user-images.githubusercontent.com/107374333/214477609-efb4c56f-4937-401e-9ccb-e66e14871561.png">
+
+
 
 ## Link to Video Demostration
 https://watch.screencastify.com/v/y6AIoojbPFwTNoiKJeHG
